@@ -1,0 +1,12 @@
+.center {
+    width: 70%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
