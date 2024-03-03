@@ -2,6 +2,7 @@
     width: 70%;
     margin: auto;
     background-color: black;
+    opacity: 90%;
     color: white;
     text-align: center;
 }
@@ -9,4 +10,27 @@
 body {
     margin: 0;
     padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 30px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.page-inactive {
+    color: white;
+    background-color: black;
+}
+
+.page-active a{
+    color: black;
+    background-color: white;
 }

@@ -17,7 +17,6 @@ app.get("/api", (req, res) => {
     const sql = "SELECT * FROM MOCK_DATA"
     db.query(sql, (err, result) => {
         if (!err) {
-            console.log(result)
             return res.json(result)
         } else {
             return res.json(err)
